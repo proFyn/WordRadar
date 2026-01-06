@@ -44,11 +44,13 @@ python3 WordRadar.py -u [https://example.com](https://example.com) -l 4 -t 10 -o
 
 #### Command Options
 
-Option,Shorthand,Description,Default
---url,-u,The target URL to scrape.,(Prompt)
---length,-l,Minimum character length for words to be counted.,0
---top,-t,Number of top frequent words to display.,5
---output,-o,"File path to save the output (e.g., data.txt).",None
+| Option       | Description                             | Default      |
+| ------------ | --------------------------------------- | ------------ |
+| -u, --url    | Page URL to extract words from          | *required*   |
+| -l, --length | Minimum word length                     | 0 (no limit) |
+| -t, --top    | Number of top frequent words to display | 5            |
+| -o, --output | Save results to a file                  | -            |
+
 
 #### 📂 Example Output
 
