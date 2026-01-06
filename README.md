@@ -1,4 +1,8 @@
 # WordRadar 📊
+
+![Python Version](https://img.shields.io/badge/python-3.8%2B-blue)
+![License](https://img.shields.io/badge/license-MIT-green)
+
 A lightweight Python CLI tool that scrapes a webpage, extracts text, and calculates the frequency of the most common words.
 
 Built with Python using:  
