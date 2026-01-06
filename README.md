@@ -20,6 +20,18 @@ Built with Python using:
 - **File Export:** Save the analysis results to a text file automatically.
   
 ---
+📦 Requirements
+
+Python 3.7+ and the following packages:
+
+click
+
+requests
+
+beautifulsoup4
+
+lxml
+
 
 ## 🚀 Installation
 
