@@ -55,7 +55,7 @@ python3 WordRadar.py -u [https://example.com](https://example.com) -l 4 -t 10 -o
 #### 📂 Example Output
 
 ```bash
-python WordRadar.py -u [https://example.com](https://example.com) -l 5 -t 3
+python3 WordRadar.py -u [https://example.com](https://example.com) -l 5 -t 3
 ```
 ####### Terminal Output:
 
