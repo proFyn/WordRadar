@@ -21,7 +21,7 @@ Built with Python using:
 
 #### 1. **Clone the repository:**
 ```bash
-   git clone [https://github.com/proFyn/WordRadar.git](https://github.com/proFyn/WordRadar.git)
+   git clone https://github.com/proFyn/WordRadar.git
    cd WordRadar
 ```
 #### 2. **Install dependencies:**
@@ -39,7 +39,7 @@ python3 WordRadar.py
 ```
 #### Advanced Usage with Arguments
 ```bash
-python3 WordRadar.py -u [https://example.com](https://example.com) -l 4 -t 10 -o results.txt
+python3 WordRadar.py -u https://example.com -l 4 -t 10 -o results.txt
 ```
 
 #### Command Options
@@ -55,7 +55,7 @@ python3 WordRadar.py -u [https://example.com](https://example.com) -l 4 -t 10 -o
 #### 📂 Example Output
 
 ```bash
-python3 WordRadar.py -u [https://example.com](https://example.com) -l 5 -t 3
+python3 WordRadar.py -u https://example.com -l 5 -t 3
 ```
 ####### Terminal Output:
 
