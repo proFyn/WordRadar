@@ -39,14 +39,14 @@ def main(url, length, top, output):
     words = get_words_of(PAGE_URL)
     top_words = get_top_words(words,length)
   
-
-    for i in range(top):
+    num_words = min(top, len(top_words))
+    for i in range(num_words):
         print(f"{i+1}. {top_words[i][0]} : {top_words[i][1]}")
 
     if output:
         try:
             with open(output, 'x', encoding='utf-8') as f:
-                for i in range(top):
+                for i in range(num_words):
                     f.write(f"{i+1}. {top_words[i][0]} : {top_words[i][1]}\n")
             print(f"Results saved to {output}")
         except FileExistsError:
