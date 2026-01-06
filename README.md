@@ -57,7 +57,7 @@ python3 WordRadar.py -u https://example.com -l 4 -t 10 -o results.txt
 ```bash
 python3 WordRadar.py -u https://example.com -l 5 -t 3
 ```
-####### Terminal Output:
+#### Terminal Output:
 
 1. example : 12
 2. domain : 8
